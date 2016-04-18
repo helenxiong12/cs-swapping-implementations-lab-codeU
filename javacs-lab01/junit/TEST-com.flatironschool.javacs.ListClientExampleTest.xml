@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="1" hostname="Helens-MacBook-Air-3.local" name="com.flatironschool.javacs.ListClientExampleTest" skipped="0" tests="1" time="0.419" timestamp="2016-04-18T08:45:26">
+<testsuite errors="0" failures="0" hostname="Helens-MacBook-Air-3.local" name="com.flatironschool.javacs.ListClientExampleTest" skipped="0" tests="1" time="0.11" timestamp="2016-04-18T08:46:58">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="env.__CHECKFIX1436934" value="1" />
@@ -44,7 +44,6 @@
     <property name="env.rvm_bin_path" value="/Users/Helen/.rvm/bin" />
     <property name="file.encoding.pkg" value="sun.io" />
     <property name="env.SHLVL" value="3" />
-    <property name="env.JAVA_MAIN_CLASS_28584" value="org.apache.tools.ant.launch.Launcher" />
     <property name="file.separator" value="/" />
     <property name="env._system_version" value="10.9" />
     <property name="java.specification.name" value="Java Platform API Specification" />
@@ -71,6 +70,7 @@
     <property name="env.GEM_PATH" value="/Users/Helen/.rvm/gems/ruby-2.3.0:/Users/Helen/.rvm/gems/ruby-2.3.0@global" />
     <property name="user.home" value="/Users/Helen" />
     <property name="target" value="1.6" />
+    <property name="env.JAVA_MAIN_CLASS_28701" value="org.apache.tools.ant.launch.Launcher" />
     <property name="java.specification.vendor" value="Oracle Corporation" />
     <property name="env.TERM_PROGRAM" value="Apple_Terminal" />
     <property name="java.vendor.url" value="http://java.oracle.com/" />
@@ -80,7 +80,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
     <property name="java.class.path" value="/Users/Helen/github-basics/cs-swapping-implementations-lab-codeU/javacs-lab01/bin:/Users/Helen/github-basics/cs-swapping-implementations-lab-codeU/javacs-lab01/lib/junit-4.12.jar:/Users/Helen/github-basics/cs-swapping-implementations-lab-codeU/javacs-lab01/lib/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-junit4.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.ListClientExampleTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/Helen/github-basics/cs-swapping-implementations-lab-codeU/javacs-lab01/junit/TEST-com.flatironschool.javacs.ListClientExampleTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=/Users/Helen/github-basics/cs-swapping-implementations-lab-codeU/javacs-lab01/junitvmwatcher585518647880227040.properties propsfile=/Users/Helen/github-basics/cs-swapping-implementations-lab-codeU/javacs-lab01/junit8407104962577358094.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.ListClientExampleTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/Helen/github-basics/cs-swapping-implementations-lab-codeU/javacs-lab01/junit/TEST-com.flatironschool.javacs.ListClientExampleTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=/Users/Helen/github-basics/cs-swapping-implementations-lab-codeU/javacs-lab01/junitvmwatcher7973322505142416667.properties propsfile=/Users/Helen/github-basics/cs-swapping-implementations-lab-codeU/javacs-lab01/junit4091337940967333585.properties" />
     <property name="env.TERM_SESSION_ID" value="EEF1A5BA-DB99-467D-A9A0-55805622D3AF" />
     <property name="ant.file.type.JavaCS" value="file" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
@@ -107,14 +107,7 @@
     <property name="java.specification.version" value="1.8" />
     <property name="ant.project.invoked-targets" value="test" />
   </properties>
-  <testcase classname="com.flatironschool.javacs.ListClientExampleTest" name="testListClientExample" time="0.02">
-    <failure message="&#xa;Expected: an instance of java.util.ArrayList&#xa;     but: &lt;[]&gt; is a java.util.LinkedList" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: 
-Expected: an instance of java.util.ArrayList
-     but: &lt;[]&gt; is a java.util.LinkedList
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at com.flatironschool.javacs.ListClientExampleTest.testListClientExample(ListClientExampleTest.java:27)
-</failure>
-  </testcase>
+  <testcase classname="com.flatironschool.javacs.ListClientExampleTest" name="testListClientExample" time="0.008" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -8,7 +8,7 @@ public class ListClientExample {
 	private List list;
 	
 	public ListClientExample() {
-		list = new LinkedList();
+		list = new ArrayList();
 	}
 
 	public List getList() {
